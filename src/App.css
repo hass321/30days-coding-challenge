@@ -1,32 +1,45 @@
-.App {
-  text-align: center;
-}
+@font-face {
+  font-family: 'bildo';
+  font-size: bold;
+  font-weight: 1000;
+  src: url("./fonts/behemuthexpand.ttf");
+  src: local("bildo"), url("./fonts/behemuthexpand.ttf") format("truetype"); }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+body,
+html {
+  margin: 0;
+  padding: 0; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  background-image: url("./images/background.jpg");
+  width: 100vw;
+  height: 100vh; }
+
+.row__header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  width: 100vw; }
 
-.App-link {
-  color: #61dafb;
-}
+.row__header--logo {
+  order: 1;
+  width: 10vw; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.row__header--logo img {
+  position: absolute;
+  left: 5%; }
+
+.row__header--heading {
+  order: 2;
+  width: 100vw;
+  text-align: center; }
+
+.row__header--heading h2 {
+  display: inline-block;
+  font-family: 'bildo';
+  font-size: 38px; }
+
+@media screen and (max-width: 800px) {
+  .row__header--heading h2 {
+    font-size: 28px; } }

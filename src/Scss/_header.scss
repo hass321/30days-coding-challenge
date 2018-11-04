@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url('./images/background.jpg');
+  width: 100vw;
+  height: 100vh;
+}
+.row__header{
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+  width: 100vw;
+}
+.row__header--logo{
+  order: 1;
+  width: 10vw;
+}
+.row__header--logo img{
+  position: absolute;
+  left: 5%;
+}
+.row__header--heading{
+  order: 2;
+  width: 100vw;
+  text-align: center;
+}
+.row__header--heading h2{
+  display: inline-block;
+  font-family: 'bildo';
+  font-size: 38px;
+}
