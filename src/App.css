@@ -12,8 +12,11 @@ html {
 
 .container {
   background-image: url("./images/background.jpg");
+  background-position: center;
+  background-size: cover;
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
 
 .row__header {
   display: flex;
@@ -39,6 +42,31 @@ html {
   display: inline-block;
   font-family: 'bildo';
   font-size: 38px; }
+
+.row__daySection {
+  margin-top: 5%;
+  display: flex;
+  flex: 1 2; }
+
+.row__daySection--menu {
+  width: 280px;
+  text-align: center; }
+
+.row__daySection--menu div {
+  display: inline-block; }
+
+.row__daySection--section {
+  margin-top: -3%;
+  width: 100vw;
+  text-align: center; }
+
+.row__daySection--section div {
+  display: inline-block;
+  width: 80%;
+  height: 100vh;
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
 
 @media screen and (max-width: 800px) {
   .row__header--heading h2 {

@@ -1,0 +1,25 @@
+.row__daySection{
+    margin-top: 5%;
+    display: flex;
+    flex: 1 2;
+}
+.row__daySection--menu{
+    width: 280px;
+    text-align: center;
+}
+.row__daySection--menu div{
+    display: inline-block;
+}
+.row__daySection--section{
+    margin-top: -3%;
+    width: 100vw;
+    text-align: center;
+}
+.row__daySection--section div{
+    display: inline-block;
+    width: 80%;
+    height: 100vh;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
