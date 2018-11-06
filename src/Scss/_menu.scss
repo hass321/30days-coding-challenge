@@ -1,0 +1,38 @@
+.menu{
+    width: 50%;
+    height: 40px;
+    box-shadow: 0px 0px 10px black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: #fff;
+}
+.menu__head{
+    display: flex !important;
+    position: relative;
+    top: 5px;
+};
+.menu__head--title{
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: 100px;
+    order: 1;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.menu__head--img{
+    width: 40%;
+    height: 23px;
+    box-sizing: border-box;
+    order: 1;
+    padding-top: 7px;
+}
+.menu__head--title::after{
+    content: '';
+    display: block;
+    width: 0.5px;
+    height: 25px;
+    background: black;
+    position: relative;
+    left: 100%;
+    top: -23px;
+}

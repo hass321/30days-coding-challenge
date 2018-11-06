@@ -4,7 +4,7 @@
     flex: 1 2;
 }
 .row__daySection--menu{
-    width: 280px;
+    width: 300px;
     text-align: center;
 }
 .row__daySection--menu div{
@@ -14,12 +14,5 @@
     margin-top: -3%;
     width: 100vw;
     text-align: center;
-}
-.row__daySection--section div{
-    display: inline-block;
-    width: 80%;
-    height: 100vh;
-    overflow-y: auto;
-    background: #fff;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    
 }

@@ -1,16 +1,17 @@
 import React from 'react';
 
-import DaySection from './DaySection'
+import DaySection from './DaySection';
+import Menu from './Menu';
 
 
 const MainSection = () => {
     return (
         <div className="row__daySection">
             <div className="row__daySection--menu">
-                <div>Menu</div>
+                <Menu />
             </div>
             <div className="row__daySection--section">
-                <div></div>
+                <DaySection />
             </div>
         </div>
     );
