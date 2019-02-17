@@ -100,32 +100,36 @@ html {
 .menu__head {
   display: flex !important;
   position: relative;
-  top: 5px; }
+  height: 35px; }
 
 .menu__head--title {
   box-sizing: border-box;
-  padding-top: 5px;
-  width: 100px;
+  padding-top: 8px;
+  width: 84px;
   order: 1;
+  position: relative;
   text-transform: uppercase;
   font-family: cursive; }
-
-.menu__head--img {
-  width: 40%;
-  height: 23px;
-  box-sizing: border-box;
-  order: 1;
-  padding-top: 7px; }
 
 .menu__head--title::after {
   content: '';
   display: block;
-  width: 0.5px;
+  width: 1.5px;
   height: 25px;
   background: black;
-  position: relative;
+  position: absolute;
   left: 100%;
-  top: -23px; }
+  top: 7px; }
+
+.menu__head--img {
+  height: 19px;
+  width: 17px;
+  box-sizing: border-box;
+  order: 1;
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  transition: transform .5s; }
 
 @media screen and (max-width: 800px) {
   .row__header--heading h2 {

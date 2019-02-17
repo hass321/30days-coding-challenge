@@ -1,7 +1,15 @@
 import React from 'react';
-
+let control = false;
 const arrowChange = (e) => {
-    console.log(e.target);
+    if(!control){
+        console.log(e.target);
+        e.target.style.transform = 'rotate(180deg)'; 
+        control = !control; 
+    }
+    else{
+        e.target.style.transform = 'rotate(0deg)';
+        control = !control;
+    }
 
 }
 
